@@ -1,15 +1,5 @@
 import Foundation
 
-/*
-1-Persistir localmente las razas de gatos.1
-
-2-Pedir al usuario que escoja una letra de la lista de iniciales de los gatos. 
-  En la lista no debe haber letras repetidas en caso de haber dos razas con la misma inicial.
-
-3-Cuando el cliente escoja una letra, mostrar en pantalla todas las razas correspondientes a esa letra.
-
-*/
-
 class CatView{
     static let instance:CatView = CatView()
     let catPresenter:CatPresenter = CatPresenter.instance

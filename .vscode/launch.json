@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug TheCatApi",
+            "program": "${workspaceFolder:CatApiBattle}/.build/debug/TheCatApi",
+            "args": [],
+            "cwd": "${workspaceFolder:CatApiBattle}",
+            "preLaunchTask": "swift: Build Debug TheCatApi"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release TheCatApi",
+            "program": "${workspaceFolder:CatApiBattle}/.build/release/TheCatApi",
+            "args": [],
+            "cwd": "${workspaceFolder:CatApiBattle}",
+            "preLaunchTask": "swift: Build Release TheCatApi"
+        }
+    ]
+}

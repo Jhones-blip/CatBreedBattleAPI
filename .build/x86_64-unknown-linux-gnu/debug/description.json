@@ -1,0 +1,276 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.xctest",
+      "productName" : "TheCatApiPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftCommands" : {
+    "C.TheCatApi-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "importPath" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/business_logic/Cat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/business_logic/Vote.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/data/CatDataService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/presentation/CatPresenter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/presentation/CatUIConverter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/presentation/VoteUIConverter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/presentation/view/CatView.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "TheCatApi",
+      "moduleOutputPath" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.swiftmodule",
+      "objects" : [
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/business_logic/Cat.swift.o",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/business_logic/Vote.swift.o",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/data/CatDataService.swift.o",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/main.swift.o",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/presentation/CatPresenter.swift.o",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/presentation/CatUIConverter.swift.o",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/presentation/VoteUIConverter.swift.o",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/presentation/view/CatView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "TheCatApi_main"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/business_logic/Cat.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/business_logic/Vote.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/data/CatDataService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/presentation/CatPresenter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/presentation/CatUIConverter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/presentation/VoteUIConverter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build/presentation/view/CatView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/business_logic/Cat.swift",
+        "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/business_logic/Vote.swift",
+        "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/data/CatDataService.swift",
+        "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/main.swift",
+        "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/presentation/CatPresenter.swift",
+        "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/presentation/CatUIConverter.swift",
+        "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/presentation/VoteUIConverter.swift",
+        "/home/danielapps/Documents/CatApiBattle/Sources/TheCatApi/presentation/view/CatView.swift"
+      ],
+      "tempsPath" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.TheCatApiPackageTests-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "importPath" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.derived/TheCatApiTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.derived/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiTests.swiftmodule"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "TheCatApiPackageTests",
+      "moduleOutputPath" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.swiftmodule",
+      "objects" : [
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.build/TheCatApiTests.swift.o",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.build/TheCatApiTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.derived/TheCatApiTests.swift",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.derived/main.swift"
+      ],
+      "tempsPath" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.TheCatApiTests-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "importPath" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/Tests/TheCatApiTests/TheCatApiTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApi"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TheCatApiTests",
+      "moduleOutputPath" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiTests.swiftmodule",
+      "objects" : [
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiTests.build/TheCatApiTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiTests.build/TheCatApiTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/home/danielapps/Documents/CatApiBattle/Tests/TheCatApiTests/TheCatApiTests.swift"
+      ],
+      "tempsPath" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+    "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.derived/main.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiTests.build/TheCatApiTests.swift.o"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.derived/TheCatApiTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Documents/CatApiBattle/.build/x86_64-unknown-linux-gnu/debug/TheCatApiPackageTests.derived/main.swift"
+        }
+      ]
+    }
+  }
+}

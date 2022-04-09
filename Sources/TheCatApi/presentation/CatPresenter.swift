@@ -3,7 +3,6 @@ import Foundation
 typealias CallbackBlock <T:Any> = (_ value:[T])->Void
 let converterUICat:CatUIConverter = CatUIConverter()
 let converterUIVote:VoteUIConverter = VoteUIConverter()
-//UserDefaul -> 
 
 struct CatBreedsStatus:Codable{
     var breeds: [Vote] = []
