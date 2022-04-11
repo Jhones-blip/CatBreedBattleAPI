@@ -127,7 +127,7 @@ class CatView{
                     }
                 }     
         }
-        goBackSystemVotesView()
+        goBackSystemVotesView() 
     }
 
     func showDescriptionOfBreed(cats:[UICat]){

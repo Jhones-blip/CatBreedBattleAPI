@@ -27,7 +27,7 @@ class CatDataService{
                 }
         }
         task.resume()
-    }
+    } 
 
     func saveBreedsVoting(_ catBreeds:CatBreedsStatus){
         if let encoded = try?JSONEncoder().encode(catBreeds){
@@ -35,7 +35,7 @@ class CatDataService{
         }
     }
 
-    func getSavedVoting() -> CatBreedsStatus? {
+    func voteStatus() -> CatBreedsStatus? {
         if let saveSession = defaults.object(forKey: "saveSession") as? Data{
             if let loadedSession = try?JSONDecoder().decode(CatBreedsStatus.self, from: saveSession){
                 return loadedSession

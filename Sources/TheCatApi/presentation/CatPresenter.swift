@@ -38,7 +38,7 @@ class CatPresenter{
     }
 
     func getVotes() -> CatBreedsStatus? {
-        return dataService.getSavedVoting()
+        return dataService.voteStatus()
     }
 
     func getCats()-> Array<UICat>{
@@ -100,6 +100,6 @@ class CatPresenter{
 
     func ramdomBreed() -> UICat {
         return self.cats[ramdonNumber()]
-    } 
+    }  
 
 }

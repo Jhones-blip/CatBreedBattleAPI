@@ -1,0 +1,3675 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "FoundationNetworking",
+      "printedName": "FoundationNetworking",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Cat",
+      "printedName": "Cat",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "name",
+          "printedName": "name",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B0V4nameSSvp",
+          "mangledName": "$s9TheCatApi0B0V4nameSSvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B0V4nameSSvg",
+              "mangledName": "$s9TheCatApi0B0V4nameSSvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B0V4nameSSvs",
+              "mangledName": "$s9TheCatApi0B0V4nameSSvs",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B0V4nameSSvM",
+              "mangledName": "$s9TheCatApi0B0V4nameSSvM",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "origin",
+          "printedName": "origin",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B0V6originSSvp",
+          "mangledName": "$s9TheCatApi0B0V6originSSvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B0V6originSSvg",
+              "mangledName": "$s9TheCatApi0B0V6originSSvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B0V6originSSvs",
+              "mangledName": "$s9TheCatApi0B0V6originSSvs",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B0V6originSSvM",
+              "mangledName": "$s9TheCatApi0B0V6originSSvM",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "description",
+          "printedName": "description",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B0V11descriptionSSvp",
+          "mangledName": "$s9TheCatApi0B0V11descriptionSSvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B0V11descriptionSSvg",
+              "mangledName": "$s9TheCatApi0B0V11descriptionSSvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B0V11descriptionSSvs",
+              "mangledName": "$s9TheCatApi0B0V11descriptionSSvs",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B0V11descriptionSSvM",
+              "mangledName": "$s9TheCatApi0B0V11descriptionSSvM",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "reference_image_id",
+          "printedName": "reference_image_id",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B0V18reference_image_idSSSgvp",
+          "mangledName": "$s9TheCatApi0B0V18reference_image_idSSSgvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B0V18reference_image_idSSSgvg",
+              "mangledName": "$s9TheCatApi0B0V18reference_image_idSSSgvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B0V18reference_image_idSSSgvs",
+              "mangledName": "$s9TheCatApi0B0V18reference_image_idSSSgvs",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B0V18reference_image_idSSSgvM",
+              "mangledName": "$s9TheCatApi0B0V18reference_image_idSSSgvM",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Cat",
+              "printedName": "TheCatApi.Cat",
+              "usr": "s:9TheCatApi0B0V"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi0B0V4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s9TheCatApi0B0V4fromACs7Decoder_p_tKcfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(name:origin:description:reference_image_id:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Cat",
+              "printedName": "TheCatApi.Cat",
+              "usr": "s:9TheCatApi0B0V"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi0B0V4name6origin11description18reference_image_idACSS_S3SSgtcfc",
+          "mangledName": "$s9TheCatApi0B0V4name6origin11description18reference_image_idACSS_S3SSgtcfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9TheCatApi0B0V",
+      "mangledName": "$s9TheCatApi0B0V",
+      "moduleName": "TheCatApi",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "FoundationNetworking",
+      "printedName": "FoundationNetworking",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Vote",
+      "printedName": "Vote",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "nameBreed",
+          "printedName": "nameBreed",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi4VoteV9nameBreedSSvp",
+          "mangledName": "$s9TheCatApi4VoteV9nameBreedSSvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi4VoteV9nameBreedSSvg",
+              "mangledName": "$s9TheCatApi4VoteV9nameBreedSSvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi4VoteV9nameBreedSSvs",
+              "mangledName": "$s9TheCatApi4VoteV9nameBreedSSvs",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi4VoteV9nameBreedSSvM",
+              "mangledName": "$s9TheCatApi4VoteV9nameBreedSSvM",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "like",
+          "printedName": "like",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi4VoteV4likeSSvp",
+          "mangledName": "$s9TheCatApi4VoteV4likeSSvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi4VoteV4likeSSvg",
+              "mangledName": "$s9TheCatApi4VoteV4likeSSvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi4VoteV4likeSSvs",
+              "mangledName": "$s9TheCatApi4VoteV4likeSSvs",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi4VoteV4likeSSvM",
+              "mangledName": "$s9TheCatApi4VoteV4likeSSvM",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "disLike",
+          "printedName": "disLike",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi4VoteV7disLikeSSvp",
+          "mangledName": "$s9TheCatApi4VoteV7disLikeSSvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi4VoteV7disLikeSSvg",
+              "mangledName": "$s9TheCatApi4VoteV7disLikeSSvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi4VoteV7disLikeSSvs",
+              "mangledName": "$s9TheCatApi4VoteV7disLikeSSvs",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi4VoteV7disLikeSSvM",
+              "mangledName": "$s9TheCatApi4VoteV7disLikeSSvM",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nameBreed:like:disLike:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Vote",
+              "printedName": "TheCatApi.Vote",
+              "usr": "s:9TheCatApi4VoteV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi4VoteV9nameBreed4like7disLikeACSS_S2Stcfc",
+          "mangledName": "$s9TheCatApi4VoteV9nameBreed4like7disLikeACSS_S2Stcfc",
+          "moduleName": "TheCatApi",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi4VoteV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s9TheCatApi4VoteV6encode2toys7Encoder_p_tKF",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Vote",
+              "printedName": "TheCatApi.Vote",
+              "usr": "s:9TheCatApi4VoteV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi4VoteV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s9TheCatApi4VoteV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9TheCatApi4VoteV",
+      "mangledName": "$s9TheCatApi4VoteV",
+      "moduleName": "TheCatApi",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "FoundationNetworking",
+      "printedName": "FoundationNetworking",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CatDataService",
+      "printedName": "CatDataService",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "instance",
+          "printedName": "instance",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatDataService",
+              "printedName": "TheCatApi.CatDataService",
+              "usr": "s:9TheCatApi0B11DataServiceC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B11DataServiceC8instanceACvpZ",
+          "mangledName": "$s9TheCatApi0B11DataServiceC8instanceACvpZ",
+          "moduleName": "TheCatApi",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CatDataService",
+                  "printedName": "TheCatApi.CatDataService",
+                  "usr": "s:9TheCatApi0B11DataServiceC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B11DataServiceC8instanceACvgZ",
+              "mangledName": "$s9TheCatApi0B11DataServiceC8instanceACvgZ",
+              "moduleName": "TheCatApi",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "catApiToken",
+          "printedName": "catApiToken",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B11DataServiceC03catC5TokenSSvp",
+          "mangledName": "$s9TheCatApi0B11DataServiceC03catC5TokenSSvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B11DataServiceC03catC5TokenSSvg",
+              "mangledName": "$s9TheCatApi0B11DataServiceC03catC5TokenSSvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "defaults",
+          "printedName": "defaults",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserDefaults",
+              "printedName": "Foundation.UserDefaults",
+              "usr": "s:10Foundation12UserDefaultsC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B11DataServiceC8defaults10Foundation12UserDefaultsCvp",
+          "mangledName": "$s9TheCatApi0B11DataServiceC8defaults10Foundation12UserDefaultsCvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UserDefaults",
+                  "printedName": "Foundation.UserDefaults",
+                  "usr": "s:10Foundation12UserDefaultsC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B11DataServiceC8defaults10Foundation12UserDefaultsCvg",
+              "mangledName": "$s9TheCatApi0B11DataServiceC8defaults10Foundation12UserDefaultsCvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "getBreeds",
+          "printedName": "getBreeds(onCompletion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "([TheCatApi.Cat]) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[TheCatApi.Cat]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Cat",
+                      "printedName": "TheCatApi.Cat",
+                      "usr": "s:9TheCatApi0B0V"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B11DataServiceC9getBreeds12onCompletionyySayAA0B0VGc_tF",
+          "mangledName": "$s9TheCatApi0B11DataServiceC9getBreeds12onCompletionyySayAA0B0VGc_tF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "saveBreedsVoting",
+          "printedName": "saveBreedsVoting(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CatBreedsStatus",
+              "printedName": "TheCatApi.CatBreedsStatus",
+              "usr": "s:9TheCatApi0B12BreedsStatusV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B11DataServiceC16saveBreedsVotingyyAA0bG6StatusVF",
+          "mangledName": "$s9TheCatApi0B11DataServiceC16saveBreedsVotingyyAA0bG6StatusVF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "voteStatus",
+          "printedName": "voteStatus()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "TheCatApi.CatBreedsStatus?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CatBreedsStatus",
+                  "printedName": "TheCatApi.CatBreedsStatus",
+                  "usr": "s:9TheCatApi0B12BreedsStatusV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B11DataServiceC10voteStatusAA0b6BreedsG0VSgyF",
+          "mangledName": "$s9TheCatApi0B11DataServiceC10voteStatusAA0b6BreedsG0VSgyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatDataService",
+              "printedName": "TheCatApi.CatDataService",
+              "usr": "s:9TheCatApi0B11DataServiceC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi0B11DataServiceCACycfc",
+          "mangledName": "$s9TheCatApi0B11DataServiceCACycfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9TheCatApi0B11DataServiceC",
+      "mangledName": "$s9TheCatApi0B11DataServiceC",
+      "moduleName": "TheCatApi",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "FoundationNetworking",
+      "printedName": "FoundationNetworking",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Var",
+      "name": "load",
+      "printedName": "load",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Main",
+          "printedName": "TheCatApi.Main",
+          "usr": "s:9TheCatApi4MainC"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:9TheCatApi4loadAA4MainCvp",
+      "mangledName": "$s9TheCatApi4loadAA4MainCvp",
+      "moduleName": "TheCatApi",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "isLet": true,
+      "hasStorage": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Main",
+      "printedName": "Main",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "start",
+          "printedName": "start",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatView",
+              "printedName": "TheCatApi.CatView",
+              "usr": "s:9TheCatApi0B4ViewC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi4MainC5startAA0B4ViewCvp",
+          "mangledName": "$s9TheCatApi4MainC5startAA0B4ViewCvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CatView",
+                  "printedName": "TheCatApi.CatView",
+                  "usr": "s:9TheCatApi0B4ViewC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi4MainC5startAA0B4ViewCvg",
+              "mangledName": "$s9TheCatApi4MainC5startAA0B4ViewCvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Main",
+              "printedName": "TheCatApi.Main",
+              "usr": "s:9TheCatApi4MainC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi4MainCACycfc",
+          "mangledName": "$s9TheCatApi4MainCACycfc",
+          "moduleName": "TheCatApi",
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9TheCatApi4MainC",
+      "mangledName": "$s9TheCatApi4MainC",
+      "moduleName": "TheCatApi",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "FoundationNetworking",
+      "printedName": "FoundationNetworking",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Var",
+      "name": "converterUICat",
+      "printedName": "converterUICat",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "CatUIConverter",
+          "printedName": "TheCatApi.CatUIConverter",
+          "usr": "s:9TheCatApi0B11UIConverterC"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:9TheCatApi14converterUICatAA0B11UIConverterCvp",
+      "mangledName": "$s9TheCatApi14converterUICatAA0B11UIConverterCvp",
+      "moduleName": "TheCatApi",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "isLet": true,
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "converterUIVote",
+      "printedName": "converterUIVote",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "VoteUIConverter",
+          "printedName": "TheCatApi.VoteUIConverter",
+          "usr": "s:9TheCatApi15VoteUIConverterC"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:9TheCatApi15converterUIVoteAA15VoteUIConverterCvp",
+      "mangledName": "$s9TheCatApi15converterUIVoteAA15VoteUIConverterCvp",
+      "moduleName": "TheCatApi",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "isLet": true,
+      "hasStorage": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CatBreedsStatus",
+      "printedName": "CatBreedsStatus",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "breeds",
+          "printedName": "breeds",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TheCatApi.Vote]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Vote",
+                  "printedName": "TheCatApi.Vote",
+                  "usr": "s:9TheCatApi4VoteV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B12BreedsStatusV6breedsSayAA4VoteVGvp",
+          "mangledName": "$s9TheCatApi0B12BreedsStatusV6breedsSayAA4VoteVGvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[TheCatApi.Vote]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Vote",
+                      "printedName": "TheCatApi.Vote",
+                      "usr": "s:9TheCatApi4VoteV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B12BreedsStatusV6breedsSayAA4VoteVGvg",
+              "mangledName": "$s9TheCatApi0B12BreedsStatusV6breedsSayAA4VoteVGvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[TheCatApi.Vote]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Vote",
+                      "printedName": "TheCatApi.Vote",
+                      "usr": "s:9TheCatApi4VoteV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B12BreedsStatusV6breedsSayAA4VoteVGvs",
+              "mangledName": "$s9TheCatApi0B12BreedsStatusV6breedsSayAA4VoteVGvs",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B12BreedsStatusV6breedsSayAA4VoteVGvM",
+              "mangledName": "$s9TheCatApi0B12BreedsStatusV6breedsSayAA4VoteVGvM",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "encode",
+          "printedName": "encode(to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Encoder",
+              "printedName": "Swift.Encoder",
+              "usr": "s:s7EncoderP"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B12BreedsStatusV6encode2toys7Encoder_p_tKF",
+          "mangledName": "$s9TheCatApi0B12BreedsStatusV6encode2toys7Encoder_p_tKF",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatBreedsStatus",
+              "printedName": "TheCatApi.CatBreedsStatus",
+              "usr": "s:9TheCatApi0B12BreedsStatusV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi0B12BreedsStatusVACycfc",
+          "mangledName": "$s9TheCatApi0B12BreedsStatusVACycfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(breeds:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatBreedsStatus",
+              "printedName": "TheCatApi.CatBreedsStatus",
+              "usr": "s:9TheCatApi0B12BreedsStatusV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TheCatApi.Vote]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Vote",
+                  "printedName": "TheCatApi.Vote",
+                  "usr": "s:9TheCatApi4VoteV"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi0B12BreedsStatusV6breedsACSayAA4VoteVG_tcfc",
+          "mangledName": "$s9TheCatApi0B12BreedsStatusV6breedsACSayAA4VoteVG_tcfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(from:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatBreedsStatus",
+              "printedName": "TheCatApi.CatBreedsStatus",
+              "usr": "s:9TheCatApi0B12BreedsStatusV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Decoder",
+              "printedName": "Swift.Decoder",
+              "usr": "s:s7DecoderP"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi0B12BreedsStatusV4fromACs7Decoder_p_tKcfc",
+          "mangledName": "$s9TheCatApi0B12BreedsStatusV4fromACs7Decoder_p_tKcfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "throwing": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9TheCatApi0B12BreedsStatusV",
+      "mangledName": "$s9TheCatApi0B12BreedsStatusV",
+      "moduleName": "TheCatApi",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CatPresenter",
+      "printedName": "CatPresenter",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "instance",
+          "printedName": "instance",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatPresenter",
+              "printedName": "TheCatApi.CatPresenter",
+              "usr": "s:9TheCatApi0B9PresenterC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B9PresenterC8instanceACvpZ",
+          "mangledName": "$s9TheCatApi0B9PresenterC8instanceACvpZ",
+          "moduleName": "TheCatApi",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CatPresenter",
+                  "printedName": "TheCatApi.CatPresenter",
+                  "usr": "s:9TheCatApi0B9PresenterC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC8instanceACvgZ",
+              "mangledName": "$s9TheCatApi0B9PresenterC8instanceACvgZ",
+              "moduleName": "TheCatApi",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "dataService",
+          "printedName": "dataService",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatDataService",
+              "printedName": "TheCatApi.CatDataService",
+              "usr": "s:9TheCatApi0B11DataServiceC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B9PresenterC11dataServiceAA0b4DataF0Cvp",
+          "mangledName": "$s9TheCatApi0B9PresenterC11dataServiceAA0b4DataF0Cvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CatDataService",
+                  "printedName": "TheCatApi.CatDataService",
+                  "usr": "s:9TheCatApi0B11DataServiceC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC11dataServiceAA0b4DataF0Cvg",
+              "mangledName": "$s9TheCatApi0B9PresenterC11dataServiceAA0b4DataF0Cvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "catBreedsStatus",
+          "printedName": "catBreedsStatus",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatBreedsStatus",
+              "printedName": "TheCatApi.CatBreedsStatus",
+              "usr": "s:9TheCatApi0B12BreedsStatusV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B9PresenterC15catBreedsStatusAA0bfG0Vvp",
+          "mangledName": "$s9TheCatApi0B9PresenterC15catBreedsStatusAA0bfG0Vvp",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CatBreedsStatus",
+                  "printedName": "TheCatApi.CatBreedsStatus",
+                  "usr": "s:9TheCatApi0B12BreedsStatusV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC15catBreedsStatusAA0bfG0Vvg",
+              "mangledName": "$s9TheCatApi0B9PresenterC15catBreedsStatusAA0bfG0Vvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CatBreedsStatus",
+                  "printedName": "TheCatApi.CatBreedsStatus",
+                  "usr": "s:9TheCatApi0B12BreedsStatusV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC15catBreedsStatusAA0bfG0Vvs",
+              "mangledName": "$s9TheCatApi0B9PresenterC15catBreedsStatusAA0bfG0Vvs",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC15catBreedsStatusAA0bfG0VvM",
+              "mangledName": "$s9TheCatApi0B9PresenterC15catBreedsStatusAA0bfG0VvM",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "cats",
+          "printedName": "cats",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TheCatApi.UICat]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UICat",
+                  "printedName": "TheCatApi.UICat",
+                  "usr": "s:9TheCatApi5UICatV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B9PresenterC4catsSayAA5UICatVGvp",
+          "mangledName": "$s9TheCatApi0B9PresenterC4catsSayAA5UICatVGvp",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[TheCatApi.UICat]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UICat",
+                      "printedName": "TheCatApi.UICat",
+                      "usr": "s:9TheCatApi5UICatV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC4catsSayAA5UICatVGvg",
+              "mangledName": "$s9TheCatApi0B9PresenterC4catsSayAA5UICatVGvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[TheCatApi.UICat]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UICat",
+                      "printedName": "TheCatApi.UICat",
+                      "usr": "s:9TheCatApi5UICatV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC4catsSayAA5UICatVGvs",
+              "mangledName": "$s9TheCatApi0B9PresenterC4catsSayAA5UICatVGvs",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC4catsSayAA5UICatVGvM",
+              "mangledName": "$s9TheCatApi0B9PresenterC4catsSayAA5UICatVGvM",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "votes",
+          "printedName": "votes",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TheCatApi.Vote]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Vote",
+                  "printedName": "TheCatApi.Vote",
+                  "usr": "s:9TheCatApi4VoteV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B9PresenterC5votesSayAA4VoteVGvp",
+          "mangledName": "$s9TheCatApi0B9PresenterC5votesSayAA4VoteVGvp",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[TheCatApi.Vote]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Vote",
+                      "printedName": "TheCatApi.Vote",
+                      "usr": "s:9TheCatApi4VoteV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC5votesSayAA4VoteVGvg",
+              "mangledName": "$s9TheCatApi0B9PresenterC5votesSayAA4VoteVGvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[TheCatApi.Vote]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Vote",
+                      "printedName": "TheCatApi.Vote",
+                      "usr": "s:9TheCatApi4VoteV"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC5votesSayAA4VoteVGvs",
+              "mangledName": "$s9TheCatApi0B9PresenterC5votesSayAA4VoteVGvs",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC5votesSayAA4VoteVGvM",
+              "mangledName": "$s9TheCatApi0B9PresenterC5votesSayAA4VoteVGvM",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "initialLetterBreeds",
+          "printedName": "initialLetterBreeds",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Character]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B9PresenterC19initialLetterBreedsSaySJGvp",
+          "mangledName": "$s9TheCatApi0B9PresenterC19initialLetterBreedsSaySJGvp",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Character]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Character",
+                      "printedName": "Swift.Character",
+                      "usr": "s:SJ"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC19initialLetterBreedsSaySJGvg",
+              "mangledName": "$s9TheCatApi0B9PresenterC19initialLetterBreedsSaySJGvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Character]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Character",
+                      "printedName": "Swift.Character",
+                      "usr": "s:SJ"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC19initialLetterBreedsSaySJGvs",
+              "mangledName": "$s9TheCatApi0B9PresenterC19initialLetterBreedsSaySJGvs",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B9PresenterC19initialLetterBreedsSaySJGvM",
+              "mangledName": "$s9TheCatApi0B9PresenterC19initialLetterBreedsSaySJGvM",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "loadBreeds",
+          "printedName": "loadBreeds()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B9PresenterC10loadBreedsyyF",
+          "mangledName": "$s9TheCatApi0B9PresenterC10loadBreedsyyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setVotes",
+          "printedName": "setVotes(cat:vote:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UICat",
+              "printedName": "TheCatApi.UICat",
+              "usr": "s:9TheCatApi5UICatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B9PresenterC8setVotes3cat4voteyAA5UICatV_SitF",
+          "mangledName": "$s9TheCatApi0B9PresenterC8setVotes3cat4voteyAA5UICatV_SitF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getVotes",
+          "printedName": "getVotes()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "TheCatApi.CatBreedsStatus?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CatBreedsStatus",
+                  "printedName": "TheCatApi.CatBreedsStatus",
+                  "usr": "s:9TheCatApi0B12BreedsStatusV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B9PresenterC8getVotesAA0B12BreedsStatusVSgyF",
+          "mangledName": "$s9TheCatApi0B9PresenterC8getVotesAA0B12BreedsStatusVSgyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getCats",
+          "printedName": "getCats()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TheCatApi.UICat]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UICat",
+                  "printedName": "TheCatApi.UICat",
+                  "usr": "s:9TheCatApi5UICatV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B9PresenterC7getCatsSayAA5UICatVGyF",
+          "mangledName": "$s9TheCatApi0B9PresenterC7getCatsSayAA5UICatVGyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "addBreedLibrary",
+          "printedName": "addBreedLibrary(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TheCatApi.UICat]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UICat",
+                  "printedName": "TheCatApi.UICat",
+                  "usr": "s:9TheCatApi5UICatV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B9PresenterC15addBreedLibraryyySayAA5UICatVGF",
+          "mangledName": "$s9TheCatApi0B9PresenterC15addBreedLibraryyySayAA5UICatVGF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "numberBreedsInLibrary",
+          "printedName": "numberBreedsInLibrary()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B9PresenterC21numberBreedsInLibrarySiyF",
+          "mangledName": "$s9TheCatApi0B9PresenterC21numberBreedsInLibrarySiyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "addInitialLetterBreeds",
+          "printedName": "addInitialLetterBreeds(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TheCatApi.UICat]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UICat",
+                  "printedName": "TheCatApi.UICat",
+                  "usr": "s:9TheCatApi5UICatV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B9PresenterC22addInitialLetterBreedsyySayAA5UICatVGF",
+          "mangledName": "$s9TheCatApi0B9PresenterC22addInitialLetterBreedsyySayAA5UICatVGF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getinitialLetterBreeds",
+          "printedName": "getinitialLetterBreeds()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Character]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B9PresenterC22getinitialLetterBreedsSaySJGyF",
+          "mangledName": "$s9TheCatApi0B9PresenterC22getinitialLetterBreedsSaySJGyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "letterInitial",
+          "printedName": "letterInitial(sentence:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Character",
+              "printedName": "Swift.Character",
+              "usr": "s:SJ"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B9PresenterC13letterInitial8sentenceSJSS_tF",
+          "mangledName": "$s9TheCatApi0B9PresenterC13letterInitial8sentenceSJSS_tF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getCatInitialsLetter",
+          "printedName": "getCatInitialsLetter(letterSelected:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TheCatApi.UICat]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UICat",
+                  "printedName": "TheCatApi.UICat",
+                  "usr": "s:9TheCatApi5UICatV"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Character",
+              "printedName": "Swift.Character",
+              "usr": "s:SJ"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B9PresenterC03getB14InitialsLetter14letterSelectedSayAA5UICatVGSJ_tF",
+          "mangledName": "$s9TheCatApi0B9PresenterC03getB14InitialsLetter14letterSelectedSayAA5UICatVGSJ_tF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "ramdonNumber",
+          "printedName": "ramdonNumber()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B9PresenterC12ramdonNumberSiyF",
+          "mangledName": "$s9TheCatApi0B9PresenterC12ramdonNumberSiyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "ramdomBreed",
+          "printedName": "ramdomBreed()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UICat",
+              "printedName": "TheCatApi.UICat",
+              "usr": "s:9TheCatApi5UICatV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B9PresenterC11ramdomBreedAA5UICatVyF",
+          "mangledName": "$s9TheCatApi0B9PresenterC11ramdomBreedAA5UICatVyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatPresenter",
+              "printedName": "TheCatApi.CatPresenter",
+              "usr": "s:9TheCatApi0B9PresenterC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi0B9PresenterCACycfc",
+          "mangledName": "$s9TheCatApi0B9PresenterCACycfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9TheCatApi0B9PresenterC",
+      "mangledName": "$s9TheCatApi0B9PresenterC",
+      "moduleName": "TheCatApi",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "FoundationNetworking",
+      "printedName": "FoundationNetworking",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UICat",
+      "printedName": "UICat",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "nameBreed",
+          "printedName": "nameBreed",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi5UICatV9nameBreedSSvp",
+          "mangledName": "$s9TheCatApi5UICatV9nameBreedSSvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi5UICatV9nameBreedSSvg",
+              "mangledName": "$s9TheCatApi5UICatV9nameBreedSSvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "originBreed",
+          "printedName": "originBreed",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi5UICatV11originBreedSSvp",
+          "mangledName": "$s9TheCatApi5UICatV11originBreedSSvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi5UICatV11originBreedSSvg",
+              "mangledName": "$s9TheCatApi5UICatV11originBreedSSvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "imageId",
+          "printedName": "imageId",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi5UICatV7imageIdSSvp",
+          "mangledName": "$s9TheCatApi5UICatV7imageIdSSvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi5UICatV7imageIdSSvg",
+              "mangledName": "$s9TheCatApi5UICatV7imageIdSSvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "descriptionBreed",
+          "printedName": "descriptionBreed",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi5UICatV16descriptionBreedSSvp",
+          "mangledName": "$s9TheCatApi5UICatV16descriptionBreedSSvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi5UICatV16descriptionBreedSSvg",
+              "mangledName": "$s9TheCatApi5UICatV16descriptionBreedSSvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nameBreed:originBreed:imageId:descriptionBreed:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UICat",
+              "printedName": "TheCatApi.UICat",
+              "usr": "s:9TheCatApi5UICatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi5UICatV9nameBreed06originF07imageId011descriptionF0ACSS_S3Stcfc",
+          "mangledName": "$s9TheCatApi5UICatV9nameBreed06originF07imageId011descriptionF0ACSS_S3Stcfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9TheCatApi5UICatV",
+      "mangledName": "$s9TheCatApi5UICatV",
+      "moduleName": "TheCatApi",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CatUIConverter",
+      "printedName": "CatUIConverter",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "convert",
+          "printedName": "convert(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TheCatApi.UICat]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UICat",
+                  "printedName": "TheCatApi.UICat",
+                  "usr": "s:9TheCatApi5UICatV"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TheCatApi.Cat]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Cat",
+                  "printedName": "TheCatApi.Cat",
+                  "usr": "s:9TheCatApi0B0V"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B11UIConverterC7convertySayAA5UICatVGSayAA0B0VGF",
+          "mangledName": "$s9TheCatApi0B11UIConverterC7convertySayAA5UICatVGSayAA0B0VGF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "convertCat",
+          "printedName": "convertCat(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UICat",
+              "printedName": "TheCatApi.UICat",
+              "usr": "s:9TheCatApi5UICatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Cat",
+              "printedName": "TheCatApi.Cat",
+              "usr": "s:9TheCatApi0B0V"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B11UIConverterC07convertB0yAA5UICatVAA0B0VF",
+          "mangledName": "$s9TheCatApi0B11UIConverterC07convertB0yAA5UICatVAA0B0VF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatUIConverter",
+              "printedName": "TheCatApi.CatUIConverter",
+              "usr": "s:9TheCatApi0B11UIConverterC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi0B11UIConverterCACycfc",
+          "mangledName": "$s9TheCatApi0B11UIConverterCACycfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9TheCatApi0B11UIConverterC",
+      "mangledName": "$s9TheCatApi0B11UIConverterC",
+      "moduleName": "TheCatApi",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "FoundationNetworking",
+      "printedName": "FoundationNetworking",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UIVote",
+      "printedName": "UIVote",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "imageId",
+          "printedName": "imageId",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi6UIVoteV7imageIdSSvp",
+          "mangledName": "$s9TheCatApi6UIVoteV7imageIdSSvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi6UIVoteV7imageIdSSvg",
+              "mangledName": "$s9TheCatApi6UIVoteV7imageIdSSvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "voteRating",
+          "printedName": "voteRating",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi6UIVoteV10voteRatingSivp",
+          "mangledName": "$s9TheCatApi6UIVoteV10voteRatingSivp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi6UIVoteV10voteRatingSivg",
+              "mangledName": "$s9TheCatApi6UIVoteV10voteRatingSivg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(imageId:voteRating:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIVote",
+              "printedName": "TheCatApi.UIVote",
+              "usr": "s:9TheCatApi6UIVoteV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi6UIVoteV7imageId10voteRatingACSS_Sitcfc",
+          "mangledName": "$s9TheCatApi6UIVoteV7imageId10voteRatingACSS_Sitcfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9TheCatApi6UIVoteV",
+      "mangledName": "$s9TheCatApi6UIVoteV",
+      "moduleName": "TheCatApi",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "VoteUIConverter",
+      "printedName": "VoteUIConverter",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "VoteUIConverter",
+              "printedName": "TheCatApi.VoteUIConverter",
+              "usr": "s:9TheCatApi15VoteUIConverterC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi15VoteUIConverterCACycfc",
+          "mangledName": "$s9TheCatApi15VoteUIConverterCACycfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9TheCatApi15VoteUIConverterC",
+      "mangledName": "$s9TheCatApi15VoteUIConverterC",
+      "moduleName": "TheCatApi",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "FoundationNetworking",
+      "printedName": "FoundationNetworking",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TheCatApi"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CatView",
+      "printedName": "CatView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "instance",
+          "printedName": "instance",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatView",
+              "printedName": "TheCatApi.CatView",
+              "usr": "s:9TheCatApi0B4ViewC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B4ViewC8instanceACvpZ",
+          "mangledName": "$s9TheCatApi0B4ViewC8instanceACvpZ",
+          "moduleName": "TheCatApi",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CatView",
+                  "printedName": "TheCatApi.CatView",
+                  "usr": "s:9TheCatApi0B4ViewC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B4ViewC8instanceACvgZ",
+              "mangledName": "$s9TheCatApi0B4ViewC8instanceACvgZ",
+              "moduleName": "TheCatApi",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "catPresenter",
+          "printedName": "catPresenter",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatPresenter",
+              "printedName": "TheCatApi.CatPresenter",
+              "usr": "s:9TheCatApi0B9PresenterC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9TheCatApi0B4ViewC12catPresenterAA0bF0Cvp",
+          "mangledName": "$s9TheCatApi0B4ViewC12catPresenterAA0bF0Cvp",
+          "moduleName": "TheCatApi",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CatPresenter",
+                  "printedName": "TheCatApi.CatPresenter",
+                  "usr": "s:9TheCatApi0B9PresenterC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9TheCatApi0B4ViewC12catPresenterAA0bF0Cvg",
+              "mangledName": "$s9TheCatApi0B4ViewC12catPresenterAA0bF0Cvg",
+              "moduleName": "TheCatApi",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "start",
+          "printedName": "start()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC5startyyF",
+          "mangledName": "$s9TheCatApi0B4ViewC5startyyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "viewMainMenu",
+          "printedName": "viewMainMenu()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC12viewMainMenuyyF",
+          "mangledName": "$s9TheCatApi0B4ViewC12viewMainMenuyyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "cleanConsole",
+          "printedName": "cleanConsole()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC12cleanConsoleyyF",
+          "mangledName": "$s9TheCatApi0B4ViewC12cleanConsoleyyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "showBreedsLibrary",
+          "printedName": "showBreedsLibrary()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC17showBreedsLibraryyyF",
+          "mangledName": "$s9TheCatApi0B4ViewC17showBreedsLibraryyyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "InitialLettersOfTheBreeds",
+          "printedName": "InitialLettersOfTheBreeds()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC016InitialLettersOfA6BreedsyyF",
+          "mangledName": "$s9TheCatApi0B4ViewC016InitialLettersOfA6BreedsyyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "viewSearchBreed",
+          "printedName": "viewSearchBreed()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC15viewSearchBreedyyF",
+          "mangledName": "$s9TheCatApi0B4ViewC15viewSearchBreedyyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "votesView",
+          "printedName": "votesView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC05votesD0yyF",
+          "mangledName": "$s9TheCatApi0B4ViewC05votesD0yyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "viewVoting",
+          "printedName": "viewVoting()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC10viewVotingyyF",
+          "mangledName": "$s9TheCatApi0B4ViewC10viewVotingyyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "votesRecord",
+          "printedName": "votesRecord()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC11votesRecordyyF",
+          "mangledName": "$s9TheCatApi0B4ViewC11votesRecordyyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "showDescriptionOfBreed",
+          "printedName": "showDescriptionOfBreed(cats:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TheCatApi.UICat]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UICat",
+                  "printedName": "TheCatApi.UICat",
+                  "usr": "s:9TheCatApi5UICatV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC22showDescriptionOfBreed4catsySayAA5UICatVG_tF",
+          "mangledName": "$s9TheCatApi0B4ViewC22showDescriptionOfBreed4catsySayAA5UICatVG_tF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "valuOpcion",
+          "printedName": "valuOpcion(opcion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC10valuOpcion6opcionSbSS_tF",
+          "mangledName": "$s9TheCatApi0B4ViewC10valuOpcion6opcionSbSS_tF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "goBackSystemVotesView",
+          "printedName": "goBackSystemVotesView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC017goBackSystemVotesD0yyF",
+          "mangledName": "$s9TheCatApi0B4ViewC017goBackSystemVotesD0yyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "showBreedsbySlectedLetter",
+          "printedName": "showBreedsbySlectedLetter(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[TheCatApi.UICat]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UICat",
+                  "printedName": "TheCatApi.UICat",
+                  "usr": "s:9TheCatApi5UICatV"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC25showBreedsbySlectedLetteryySayAA5UICatVGF",
+          "mangledName": "$s9TheCatApi0B4ViewC25showBreedsbySlectedLetteryySayAA5UICatVGF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "goBackSystemMainMenuView",
+          "printedName": "goBackSystemMainMenuView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9TheCatApi0B4ViewC020goBackSystemMainMenuD0yyF",
+          "mangledName": "$s9TheCatApi0B4ViewC020goBackSystemMainMenuD0yyF",
+          "moduleName": "TheCatApi",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CatView",
+              "printedName": "TheCatApi.CatView",
+              "usr": "s:9TheCatApi0B4ViewC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9TheCatApi0B4ViewCACycfc",
+          "mangledName": "$s9TheCatApi0B4ViewCACycfc",
+          "moduleName": "TheCatApi",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9TheCatApi0B4ViewC",
+      "mangledName": "$s9TheCatApi0B4ViewC",
+      "moduleName": "TheCatApi",
+      "isOpen": true
+    }
+  ],
+  "json_format_version": 6
+}

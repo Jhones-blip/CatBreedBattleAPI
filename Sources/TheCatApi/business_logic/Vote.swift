@@ -3,7 +3,7 @@ import Foundation
 struct Vote:Codable{
     var nameBreed: String
     var like: String
-    var disLike: String
+    var disLike: String 
 
     
     init(nameBreed:String, like:String , disLike:String) {
