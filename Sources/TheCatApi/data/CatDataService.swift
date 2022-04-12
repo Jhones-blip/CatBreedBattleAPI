@@ -35,13 +35,13 @@ class CatDataService{
         }
     }
 
-    func voteStatus() -> CatBreedsStatus? {
+    func getSaveVoting() -> CatBreedsStatus? {
         if let saveSession = defaults.object(forKey: "saveSession") as? Data{
             if let loadedSession = try?JSONDecoder().decode(CatBreedsStatus.self, from: saveSession){
                 return loadedSession
             }
         }
-        return nil
+        return nil 
     }
     
 }

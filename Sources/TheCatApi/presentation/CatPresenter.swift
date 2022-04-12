@@ -38,7 +38,7 @@ class CatPresenter{
     }
 
     func getVotes() -> CatBreedsStatus? {
-        return dataService.voteStatus()
+        return dataService.getSaveVoting()
     }
 
     func getCats()-> Array<UICat>{
